@@ -36,7 +36,7 @@ const routes = [
     children: [
       // 添加子路由
       {
-        path: '', // 子路由的路径为空，表示默认展示子路由
+        path: '/', // 子路由的路径为空，表示默认展示子路由
         component: () => import(/* webpackChunkName: "about" */ '@/views/AboutPage/index'),
 
       },
